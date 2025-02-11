@@ -3,6 +3,7 @@ import { useRef } from 'react'
 import Reducer from './components/Reducer'
 import Card from './components/Card'
 import New from './components/New'
+import Reduce from './components/Reduce'
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
     }
   return (
     <div>
+      <Reduce/>
       <New/>
        <Card/>
       <Reducer/>
